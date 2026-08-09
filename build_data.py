@@ -112,6 +112,7 @@ evidence = {
 
 
 
+
 def ph(pid, text, ev):
     return {"id": pid, "text": text, "evidence": ev}
 
@@ -128,11 +129,11 @@ def jd_prose():
         ph("a-ai-enablement-focus", "significant focus on AI enablement across the university",
            ["ev-ai-training", "ev-adoption", "pf-genai-playbook"]),
         ". This role intentionally ",
-        ph("a-unified-model", "unifies consultation, solution design, implementation, and training into a single, integrated service model",
-           ["ev-e2e-client", "ev-service-design", "ev-agentic-ops"]),
-        " recognizing that effective consultations are inherently instructional, strong training is consultative, and successful digital solutions require both.  A primary role of this position is the ability to ",
+        ph("a-unified-model", "unifies consultation, solution design, implementation, and training into a single, integrated service model recognizing that effective consultations are inherently instructional, strong training is consultative, and successful digital solutions require both",
+           ["ev-e2e-client", "ev-service-design", "ev-agentic-ops", "ev-design-fluency"]),
+        ".  A primary role of this position is the ability to ",
         ph("a-senior-stakeholders", "work closely with senior stakeholders (Director, VP, etc.)",
-           ["ev-exec-alignment", "ev-strategic-advising"]),
+           ["ev-exec-alignment", "ev-strategic-advising", "ev-speaking"]),
         " to ",
         ph("a-transformation-roadmaps", "create and shape AI transformation roadmaps",
            ["ev-ai-product", "ev-roadmapping", "pf-ai-roadmap"]),
@@ -145,7 +146,7 @@ def jd_prose():
       {"type": "p", "segments": [
         "Reporting to the Director of Digital Solutions and Global Client Experience, the Assistant Director ",
         ph("a-multidisciplinary-teams", "oversees multidisciplinary teams",
-           ["ev-xfn", "ev-talent-dev"]),
+           ["ev-xfn", "ev-talent-dev", "ev-hiring"]),
         " responsible for ",
         ph("a-community-adopt", "enabling the university community to effectively adopt and use enterprise platforms, AI-powered tools, and digital workflows",
            ["ev-adoption", "ev-tool-migration", "ev-ai-training"]),
@@ -153,39 +154,39 @@ def jd_prose():
         ph("a-bridge", "bridge between campus needs and IT capabilities",
            ["ev-translator", "ev-design-fluency", "ev-systems-mapping"]),
         ", ensuring solutions are ",
-        ph("a-user-centered-documented", "user-centered, scalable, well-documented",
-           ["ev-experience-design", "ev-strategic-writing", "ev-info-arch", "ev-playbook"]),
-        ", and supported by ",
-        ph("a-high-quality-enablement", "high-quality enablement experiences",
-           ["ev-curriculum", "ev-facilitation"]),
+        ph("a-user-centered-documented", "user-centered, scalable, well-documented, and supported by high-quality enablement experiences",
+           ["ev-experience-design", "ev-strategic-writing", "ev-info-arch", "ev-curriculum"]),
         "."
       ]},
 
       {"type": "p", "segments": [
         "A core emphasis of this role is AI enablement: ",
-        ph("a-adoption-diffusion", "guiding the adoption, diffusion, and effective use of AI platforms and AI-embedded tools",
-           ["ev-adoption", "ev-ai-agents", "pf-genai-playbook"]),
-        " (e.g., Microsoft Copilot and other emerging technologies) through solution design, ",
+        ph("a-adoption-diffusion", "guiding the adoption, diffusion, and effective use of AI platforms and AI-embedded tools (e.g., Microsoft Copilot and other emerging technologies) through solution design",
+           ["ev-adoption", "ev-ai-agents", "ev-ai-tool-eval", "pf-genai-playbook"]),
+        ", ",
         ph("a-process-reengineering", "process reengineering",
            ["ev-process-optimization", "ev-present-future", "ev-journey-mapping", "pf-local-blueprint"]),
-        ", consulting, training, and ",
+        ", ",
+        ph("a-consulting-training", "consulting, training",
+           ["ev-e2e-client", "ev-ai-training", "ev-facilitation"]),
+        ", and ",
         ph("a-change-management", "change management",
            ["ev-change", "ev-workforce-transformation"]),
         ". The Assistant Director will ",
         ph("a-oversee-ai-roles", "directly oversee senior AI-focused roles",
            ["ev-mentorship", "ev-talent-dev"]),
         " and is expected to ",
-        ph("a-model-ai-fluency", "model strong AI fluency, ethical use, and practical application",
-           ["ev-responsible-ai", "ev-agentic-ops", "ev-rd-lab"]),
-        " across administrative and academic contexts."
+        ph("a-model-ai-fluency", "model strong AI fluency, ethical use, and practical application across administrative and academic contexts",
+           ["ev-responsible-ai", "ev-agentic-ops", "ev-rd-lab", "ev-ai-reliability"]),
+        "."
       ]},
 
       {"type": "h2", "text": "Minimum Qualifications"},
 
       {"type": "li", "segments": [
-        ph("a-bachelors", "Bachelor’s degree in Information Technology, Computer Science, Business, Education, or a related field",
+        ph("a-bachelors", "Bachelor’s degree in Information Technology, Computer Science, Business, Education, or a related field; or equivalent combination of education and experience",
            ["ev-ma", "ev-credentials"]),
-        "; or equivalent combination of education and experience."
+        "."
       ]},
 
       {"type": "li", "segments": [
@@ -197,8 +198,11 @@ def jd_prose():
       {"type": "li", "segments": [
         "Incumbent must have the ability to ",
         ph("a-exec-consulting", "blend front-facing, executive level consulting skills",
-           ["ev-exec-alignment", "ev-e2e-client"]),
-        " with deep technical knowledge to ",
+           ["ev-exec-alignment", "ev-e2e-client", "ev-storytelling"]),
+        " with ",
+        ph("a-technical-knowledge", "deep technical knowledge",
+           ["ev-ai-agents", "ev-tech-stack", "ev-info-arch", "ev-rd-lab"]),
+        " to ",
         ph("a-ai-value", "identify opportunities where AI opportunities can create significant value to the organization",
            ["ev-ai-product", "ev-insights", "pf-ai-roadmap"]),
         "."
@@ -206,14 +210,14 @@ def jd_prose():
 
       {"type": "li", "segments": [
         ph("a-managing-teams", "Demonstrated leadership experience managing multidisciplinary teams (consulting, engineering, training, or enablement)",
-           ["ev-xfn", "ev-hiring", "ev-team-retention"]),
+           ["ev-xfn", "ev-hiring", "ev-team-retention", "ev-org-restructuring"]),
         "."
       ]},
 
       {"type": "li", "segments": [
-        ph("a-enterprise-platforms", "Strong experience with enterprise platforms and productivity tools",
-           ["ev-tooling", "ev-pm-tools", "ev-tech-stack"]),
-        " (e.g., Microsoft 365, Power Platform, ServiceNow, Qualtrics, collaboration tools)."
+        ph("a-enterprise-platforms", "Strong experience with enterprise platforms and productivity tools (e.g., Microsoft 365, Power Platform, ServiceNow, Qualtrics, collaboration tools)",
+           ["ev-tooling", "ev-pm-tools", "ev-tech-stack", "ev-tool-migration"]),
+        "."
       ]},
 
       {"type": "li", "segments": [
@@ -236,7 +240,7 @@ def jd_prose():
 
       {"type": "li", "segments": [
         ph("a-communication-change", "Exceptional communication, stakeholder engagement, and change management skills",
-           ["ev-speaking", "ev-storytelling", "ev-change"]),
+           ["ev-speaking", "ev-storytelling", "ev-change", "ev-psych"]),
         "."
       ]},
 
@@ -250,7 +254,7 @@ def jd_prose():
 
       {"type": "li", "segments": [
         ph("a-leading-ai-programs", "Experience leading or supporting AI programs, platforms, or AI-embedded enterprise tools",
-           ["ev-ai-product", "ev-ai-agents", "pf-personas"]),
+           ["ev-ai-product", "ev-ai-agents", "ev-ai-training", "pf-personas"]),
         "."
       ]},
 
@@ -261,11 +265,8 @@ def jd_prose():
       ]},
 
       {"type": "li", "segments": [
-        ph("a-agile-scrum", "Agile, Scrum",
-           ["ev-agile", "ev-operating-cadences"]),
-        ", ITIL, or ",
-        ph("a-change-mgmt-experience", "change management experience",
-           ["ev-change", "ev-org-restructuring"]),
+        ph("a-agile-itil-change", "Agile, Scrum, ITIL, or change management experience",
+           ["ev-agile", "ev-operating-cadences", "ev-change", "ev-org-restructuring"]),
         "."
       ]},
 
@@ -280,7 +281,9 @@ def jd_prose():
       {"type": "h3", "text": "1) Integrated Digital Solutions Leadership-"},
 
       {"type": "p", "segments": [
-        "Provide strategic and operational leadership for digital solutions consulting, solutions engineering, and training as a unified function. ",
+        ph("a-unified-function", "Provide strategic and operational leadership for digital solutions consulting, solutions engineering, and training as a unified function",
+           ["ev-architect-operator", "ev-startup-os", "ev-workstreams", "ev-xfn"]),
+        ". ",
         ph("a-service-offerings", "Define and evolve service offerings that intentionally blend consultation, solutioning, and enablement",
            ["ev-gtm", "ev-biz-model", "ev-new-revenue"]),
         ". ",
@@ -293,39 +296,38 @@ def jd_prose():
 
       {"type": "p", "segments": [
         ph("a-lead-ai-efforts", "Lead the university’s AI enablement efforts within Digital Solutions, including consultation, solution design, training, and diffusion",
-           ["ev-ai-training", "ev-adoption", "ev-facilitation"]),
+           ["ev-ai-training", "ev-adoption", "ev-facilitation", "pf-genai-playbook"]),
         ". ",
         ph("a-program-manager", "Serve as program manager for the AI enablement program, establishing the roadmap, governance-aligned operating model, intake and prioritization mechanisms, and success metrics for AI adoption across the university",
            ["ev-roadmapping", "ev-ai-product", "ev-operating-cadences", "ev-metrics"]),
-        ". Partner with stakeholders to ",
-        ph("a-high-impact-use-cases", "identify high-impact AI use cases where current processes or jobs can be reengineered to utilize AI",
+        ". ",
+        ph("a-high-impact-use-cases", "Partner with stakeholders to identify high-impact AI use cases where current processes or jobs can be reengineered to utilize AI",
            ["ev-process-optimization", "ev-workforce-transformation", "ev-agentic-ops", "ev-systems-thinking"]),
         ", ",
         ph("a-responsible-adoption", "guide responsible adoption",
            ["ev-responsible-ai", "ev-psych"]),
         ", and ",
         ph("a-embedded-workflows", "ensure AI tools are embedded into real workflows through consulting, solution design, and training",
-           ["ev-agentic-ops", "ev-knowledge-mgmt", "pf-prompt-eng"]),
+           ["ev-agentic-ops", "ev-knowledge-mgmt", "ev-adoption", "pf-prompt-eng"]),
         ". ",
         ph("a-oversee-ai-collab", "Oversee or collaborate closely with AI-focused roles",
-           ["ev-mentorship", "ev-xfn"]),
-        " and ensure ",
-        ph("a-governance-frameworks", "alignment with institutional AI governance, risk, and ethics frameworks",
-           ["ev-ai-reliability", "ev-regulatory", "ev-decision-frameworks"]),
+           ["ev-mentorship", "ev-xfn", "ev-talent-dev"]),
+        " and ",
+        ph("a-governance-frameworks", "ensure alignment with institutional AI governance, risk, and ethics frameworks",
+           ["ev-responsible-ai", "ev-ai-reliability", "ev-regulatory", "ev-decision-frameworks"]),
         "."
       ]},
 
       {"type": "h3", "text": "3) Solutions Engineering and Consulting Oversight -"},
 
       {"type": "p", "segments": [
-        "Oversee solution engineering and consulting activities that ",
-        ph("a-translate-supportable", "translate business needs into effective, supportable digital solutions using enterprise platforms",
-           ["ev-translator", "ev-tech-stack", "ev-tooling"]),
-        " (e.g., Microsoft 365, ServiceNow, Qualtrics, Miro, AI platforms). Ensure solutions emphasize ",
-        ph("a-ootb-maintainability", "out-of-the-box capabilities, scalability, and maintainability",
+        ph("a-translate-supportable", "Oversee solution engineering and consulting activities that translate business needs into effective, supportable digital solutions using enterprise platforms (e.g., Microsoft 365, ServiceNow, Qualtrics, Miro, AI platforms)",
+           ["ev-translator", "ev-tech-stack", "ev-tooling", "ev-tool-migration"]),
+        ". ",
+        ph("a-ootb-maintainability", "Ensure solutions emphasize out-of-the-box capabilities, scalability, and maintainability",
            ["ev-pm-system", "ev-playbook", "pf-platform-playbook"]),
-        ". Guide teams in ",
-        ph("a-requirements-process-mapping", "requirements gathering, process mapping",
+        ". ",
+        ph("a-guide-teams", "Guide teams in requirements gathering, process mapping",
            ["ev-research", "ev-blueprinting", "pf-global-blueprint", "pf-eraf"]),
         ", ",
         ph("a-design-testing-handoff", "solution design, testing, and handoff",
@@ -337,13 +339,13 @@ def jd_prose():
 
       {"type": "p", "segments": [
         ph("a-oversee-training", "Oversee the design and delivery of training and enablement experiences that support adoption of digital and AI-enabled solutions",
-           ["ev-curriculum", "ev-ai-training", "ev-facilitation"]),
-        ". Ensure training offerings are ",
-        ph("a-workflow-centered", "practical, workflow-centered, and aligned with real consultative engagements",
-           ["ev-adoption", "ev-architect-operator"]),
+           ["ev-curriculum", "ev-ai-training", "ev-facilitation", "ev-training-program"]),
+        ". ",
+        ph("a-workflow-centered", "Ensure training offerings are practical, workflow-centered, and aligned with real consultative engagements",
+           ["ev-adoption", "ev-architect-operator", "ev-e2e-client"]),
         ". ",
         ph("a-instructional-standards", "Establish standards for instructional quality, learning experience design, and measurement of training effectiveness and impact",
-           ["ev-training-program", "ev-design-standards", "ev-metrics"]),
+           ["ev-training-program", "ev-design-standards", "ev-curriculum", "ev-metrics"]),
         "."
       ]},
 
@@ -351,16 +353,16 @@ def jd_prose():
 
       {"type": "p", "segments": [
         ph("a-establish-metrics", "Establish metrics to measure  and report on adoption, impact, and satisfaction across solutions and training",
-           ["ev-metrics", "pf-genai-playbook"]),
+           ["ev-metrics", "ev-insights", "pf-genai-playbook"]),
         ". ",
         ph("a-monitor-trends", "Monitor trends in digital transformation and AI, evaluate emerging tools",
-           ["ev-rd-lab", "ev-ai-tool-eval"]),
+           ["ev-rd-lab", "ev-ai-tool-eval", "ev-rapid-domain"]),
         ", and ",
         ph("a-improve-service-models", "continuously improve service models",
            ["ev-process-optimization", "ev-root-cause"]),
         ". ",
         ph("a-refine-retire-scale", "Use data and feedback to refine offerings, retire low-value services, and scale high-impact solutions",
-           ["ev-insights", "ev-resource-reduction", "ev-new-revenue"]),
+           ["ev-insights", "ev-resource-reduction", "ev-new-revenue", "ev-decision-frameworks"]),
         "."
       ]},
 
@@ -368,9 +370,9 @@ def jd_prose():
 
       {"type": "p", "segments": [
         "This role typically ",
-        ph("a-supervises", "supervises managers, leads, and/or senior individual contributors",
-           ["ev-hiring", "ev-mentorship", "ev-org-restructuring"]),
-        " across digital solutions engineering, consulting, training, and AI enablement functions. The Assistant Director is accountable for ",
+        ph("a-supervises", "supervises managers, leads, and/or senior individual contributors across digital solutions engineering, consulting, training, and AI enablement functions",
+           ["ev-hiring", "ev-mentorship", "ev-org-restructuring", "ev-xfn"]),
+        ". The Assistant Director is accountable for ",
         ph("a-team-performance", "team performance",
            ["ev-team-retention", "ev-operating-cadences"]),
         ", ",
@@ -378,7 +380,7 @@ def jd_prose():
            ["ev-concurrent-pm", "ev-resource-reduction", "ev-parallel"]),
         ", and ",
         ph("a-professional-development", "professional development",
-           ["ev-talent-dev", "ev-coaching"]),
+           ["ev-talent-dev", "ev-coaching", "ev-mentorship"]),
         "."
       ]},
     ]
@@ -416,7 +418,6 @@ out = os.path.join(HERE, "data.json")
 with open(out, "w") as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 
-# quick self-check: every referenced evidence id exists; phrase ids unique across roles
 ids = set()
 phrase_ids = []
 for role in data["roles"]:

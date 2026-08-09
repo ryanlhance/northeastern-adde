@@ -50,20 +50,22 @@
             ". This role intentionally ",
             {
               "id": "a-unified-model",
-              "text": "unifies consultation, solution design, implementation, and training into a single, integrated service model",
+              "text": "unifies consultation, solution design, implementation, and training into a single, integrated service model recognizing that effective consultations are inherently instructional, strong training is consultative, and successful digital solutions require both",
               "evidence": [
                 "ev-e2e-client",
                 "ev-service-design",
-                "ev-agentic-ops"
+                "ev-agentic-ops",
+                "ev-design-fluency"
               ]
             },
-            " recognizing that effective consultations are inherently instructional, strong training is consultative, and successful digital solutions require both.  A primary role of this position is the ability to ",
+            ".  A primary role of this position is the ability to ",
             {
               "id": "a-senior-stakeholders",
               "text": "work closely with senior stakeholders (Director, VP, etc.)",
               "evidence": [
                 "ev-exec-alignment",
-                "ev-strategic-advising"
+                "ev-strategic-advising",
+                "ev-speaking"
               ]
             },
             " to ",
@@ -98,7 +100,8 @@
               "text": "oversees multidisciplinary teams",
               "evidence": [
                 "ev-xfn",
-                "ev-talent-dev"
+                "ev-talent-dev",
+                "ev-hiring"
               ]
             },
             " responsible for ",
@@ -124,21 +127,12 @@
             ", ensuring solutions are ",
             {
               "id": "a-user-centered-documented",
-              "text": "user-centered, scalable, well-documented",
+              "text": "user-centered, scalable, well-documented, and supported by high-quality enablement experiences",
               "evidence": [
                 "ev-experience-design",
                 "ev-strategic-writing",
                 "ev-info-arch",
-                "ev-playbook"
-              ]
-            },
-            ", and supported by ",
-            {
-              "id": "a-high-quality-enablement",
-              "text": "high-quality enablement experiences",
-              "evidence": [
-                "ev-curriculum",
-                "ev-facilitation"
+                "ev-curriculum"
               ]
             },
             "."
@@ -150,14 +144,15 @@
             "A core emphasis of this role is AI enablement: ",
             {
               "id": "a-adoption-diffusion",
-              "text": "guiding the adoption, diffusion, and effective use of AI platforms and AI-embedded tools",
+              "text": "guiding the adoption, diffusion, and effective use of AI platforms and AI-embedded tools (e.g., Microsoft Copilot and other emerging technologies) through solution design",
               "evidence": [
                 "ev-adoption",
                 "ev-ai-agents",
+                "ev-ai-tool-eval",
                 "pf-genai-playbook"
               ]
             },
-            " (e.g., Microsoft Copilot and other emerging technologies) through solution design, ",
+            ", ",
             {
               "id": "a-process-reengineering",
               "text": "process reengineering",
@@ -168,7 +163,17 @@
                 "pf-local-blueprint"
               ]
             },
-            ", consulting, training, and ",
+            ", ",
+            {
+              "id": "a-consulting-training",
+              "text": "consulting, training",
+              "evidence": [
+                "ev-e2e-client",
+                "ev-ai-training",
+                "ev-facilitation"
+              ]
+            },
+            ", and ",
             {
               "id": "a-change-management",
               "text": "change management",
@@ -189,14 +194,15 @@
             " and is expected to ",
             {
               "id": "a-model-ai-fluency",
-              "text": "model strong AI fluency, ethical use, and practical application",
+              "text": "model strong AI fluency, ethical use, and practical application across administrative and academic contexts",
               "evidence": [
                 "ev-responsible-ai",
                 "ev-agentic-ops",
-                "ev-rd-lab"
+                "ev-rd-lab",
+                "ev-ai-reliability"
               ]
             },
-            " across administrative and academic contexts."
+            "."
           ]
         },
         {
@@ -208,13 +214,13 @@
           "segments": [
             {
               "id": "a-bachelors",
-              "text": "Bachelor’s degree in Information Technology, Computer Science, Business, Education, or a related field",
+              "text": "Bachelor’s degree in Information Technology, Computer Science, Business, Education, or a related field; or equivalent combination of education and experience",
               "evidence": [
                 "ev-ma",
                 "ev-credentials"
               ]
             },
-            "; or equivalent combination of education and experience."
+            "."
           ]
         },
         {
@@ -242,10 +248,22 @@
               "text": "blend front-facing, executive level consulting skills",
               "evidence": [
                 "ev-exec-alignment",
-                "ev-e2e-client"
+                "ev-e2e-client",
+                "ev-storytelling"
               ]
             },
-            " with deep technical knowledge to ",
+            " with ",
+            {
+              "id": "a-technical-knowledge",
+              "text": "deep technical knowledge",
+              "evidence": [
+                "ev-ai-agents",
+                "ev-tech-stack",
+                "ev-info-arch",
+                "ev-rd-lab"
+              ]
+            },
+            " to ",
             {
               "id": "a-ai-value",
               "text": "identify opportunities where AI opportunities can create significant value to the organization",
@@ -267,7 +285,8 @@
               "evidence": [
                 "ev-xfn",
                 "ev-hiring",
-                "ev-team-retention"
+                "ev-team-retention",
+                "ev-org-restructuring"
               ]
             },
             "."
@@ -278,14 +297,15 @@
           "segments": [
             {
               "id": "a-enterprise-platforms",
-              "text": "Strong experience with enterprise platforms and productivity tools",
+              "text": "Strong experience with enterprise platforms and productivity tools (e.g., Microsoft 365, Power Platform, ServiceNow, Qualtrics, collaboration tools)",
               "evidence": [
                 "ev-tooling",
                 "ev-pm-tools",
-                "ev-tech-stack"
+                "ev-tech-stack",
+                "ev-tool-migration"
               ]
             },
-            " (e.g., Microsoft 365, Power Platform, ServiceNow, Qualtrics, collaboration tools)."
+            "."
           ]
         },
         {
@@ -343,7 +363,8 @@
               "evidence": [
                 "ev-speaking",
                 "ev-storytelling",
-                "ev-change"
+                "ev-change",
+                "ev-psych"
               ]
             },
             "."
@@ -377,6 +398,7 @@
               "evidence": [
                 "ev-ai-product",
                 "ev-ai-agents",
+                "ev-ai-training",
                 "pf-personas"
               ]
             },
@@ -402,18 +424,11 @@
           "type": "li",
           "segments": [
             {
-              "id": "a-agile-scrum",
-              "text": "Agile, Scrum",
+              "id": "a-agile-itil-change",
+              "text": "Agile, Scrum, ITIL, or change management experience",
               "evidence": [
                 "ev-agile",
-                "ev-operating-cadences"
-              ]
-            },
-            ", ITIL, or ",
-            {
-              "id": "a-change-mgmt-experience",
-              "text": "change management experience",
-              "evidence": [
+                "ev-operating-cadences",
                 "ev-change",
                 "ev-org-restructuring"
               ]
@@ -448,7 +463,17 @@
         {
           "type": "p",
           "segments": [
-            "Provide strategic and operational leadership for digital solutions consulting, solutions engineering, and training as a unified function. ",
+            {
+              "id": "a-unified-function",
+              "text": "Provide strategic and operational leadership for digital solutions consulting, solutions engineering, and training as a unified function",
+              "evidence": [
+                "ev-architect-operator",
+                "ev-startup-os",
+                "ev-workstreams",
+                "ev-xfn"
+              ]
+            },
+            ". ",
             {
               "id": "a-service-offerings",
               "text": "Define and evolve service offerings that intentionally blend consultation, solutioning, and enablement",
@@ -485,7 +510,8 @@
               "evidence": [
                 "ev-ai-training",
                 "ev-adoption",
-                "ev-facilitation"
+                "ev-facilitation",
+                "pf-genai-playbook"
               ]
             },
             ". ",
@@ -499,10 +525,10 @@
                 "ev-metrics"
               ]
             },
-            ". Partner with stakeholders to ",
+            ". ",
             {
               "id": "a-high-impact-use-cases",
-              "text": "identify high-impact AI use cases where current processes or jobs can be reengineered to utilize AI",
+              "text": "Partner with stakeholders to identify high-impact AI use cases where current processes or jobs can be reengineered to utilize AI",
               "evidence": [
                 "ev-process-optimization",
                 "ev-workforce-transformation",
@@ -526,6 +552,7 @@
               "evidence": [
                 "ev-agentic-ops",
                 "ev-knowledge-mgmt",
+                "ev-adoption",
                 "pf-prompt-eng"
               ]
             },
@@ -535,14 +562,16 @@
               "text": "Oversee or collaborate closely with AI-focused roles",
               "evidence": [
                 "ev-mentorship",
-                "ev-xfn"
+                "ev-xfn",
+                "ev-talent-dev"
               ]
             },
-            " and ensure ",
+            " and ",
             {
               "id": "a-governance-frameworks",
-              "text": "alignment with institutional AI governance, risk, and ethics frameworks",
+              "text": "ensure alignment with institutional AI governance, risk, and ethics frameworks",
               "evidence": [
+                "ev-responsible-ai",
                 "ev-ai-reliability",
                 "ev-regulatory",
                 "ev-decision-frameworks"
@@ -558,30 +587,30 @@
         {
           "type": "p",
           "segments": [
-            "Oversee solution engineering and consulting activities that ",
             {
               "id": "a-translate-supportable",
-              "text": "translate business needs into effective, supportable digital solutions using enterprise platforms",
+              "text": "Oversee solution engineering and consulting activities that translate business needs into effective, supportable digital solutions using enterprise platforms (e.g., Microsoft 365, ServiceNow, Qualtrics, Miro, AI platforms)",
               "evidence": [
                 "ev-translator",
                 "ev-tech-stack",
-                "ev-tooling"
+                "ev-tooling",
+                "ev-tool-migration"
               ]
             },
-            " (e.g., Microsoft 365, ServiceNow, Qualtrics, Miro, AI platforms). Ensure solutions emphasize ",
+            ". ",
             {
               "id": "a-ootb-maintainability",
-              "text": "out-of-the-box capabilities, scalability, and maintainability",
+              "text": "Ensure solutions emphasize out-of-the-box capabilities, scalability, and maintainability",
               "evidence": [
                 "ev-pm-system",
                 "ev-playbook",
                 "pf-platform-playbook"
               ]
             },
-            ". Guide teams in ",
+            ". ",
             {
-              "id": "a-requirements-process-mapping",
-              "text": "requirements gathering, process mapping",
+              "id": "a-guide-teams",
+              "text": "Guide teams in requirements gathering, process mapping",
               "evidence": [
                 "ev-research",
                 "ev-blueprinting",
@@ -616,16 +645,18 @@
               "evidence": [
                 "ev-curriculum",
                 "ev-ai-training",
-                "ev-facilitation"
+                "ev-facilitation",
+                "ev-training-program"
               ]
             },
-            ". Ensure training offerings are ",
+            ". ",
             {
               "id": "a-workflow-centered",
-              "text": "practical, workflow-centered, and aligned with real consultative engagements",
+              "text": "Ensure training offerings are practical, workflow-centered, and aligned with real consultative engagements",
               "evidence": [
                 "ev-adoption",
-                "ev-architect-operator"
+                "ev-architect-operator",
+                "ev-e2e-client"
               ]
             },
             ". ",
@@ -635,6 +666,7 @@
               "evidence": [
                 "ev-training-program",
                 "ev-design-standards",
+                "ev-curriculum",
                 "ev-metrics"
               ]
             },
@@ -653,6 +685,7 @@
               "text": "Establish metrics to measure  and report on adoption, impact, and satisfaction across solutions and training",
               "evidence": [
                 "ev-metrics",
+                "ev-insights",
                 "pf-genai-playbook"
               ]
             },
@@ -662,7 +695,8 @@
               "text": "Monitor trends in digital transformation and AI, evaluate emerging tools",
               "evidence": [
                 "ev-rd-lab",
-                "ev-ai-tool-eval"
+                "ev-ai-tool-eval",
+                "ev-rapid-domain"
               ]
             },
             ", and ",
@@ -681,7 +715,8 @@
               "evidence": [
                 "ev-insights",
                 "ev-resource-reduction",
-                "ev-new-revenue"
+                "ev-new-revenue",
+                "ev-decision-frameworks"
               ]
             },
             "."
@@ -697,14 +732,15 @@
             "This role typically ",
             {
               "id": "a-supervises",
-              "text": "supervises managers, leads, and/or senior individual contributors",
+              "text": "supervises managers, leads, and/or senior individual contributors across digital solutions engineering, consulting, training, and AI enablement functions",
               "evidence": [
                 "ev-hiring",
                 "ev-mentorship",
-                "ev-org-restructuring"
+                "ev-org-restructuring",
+                "ev-xfn"
               ]
             },
-            " across digital solutions engineering, consulting, training, and AI enablement functions. The Assistant Director is accountable for ",
+            ". The Assistant Director is accountable for ",
             {
               "id": "a-team-performance",
               "text": "team performance",
@@ -729,7 +765,8 @@
               "text": "professional development",
               "evidence": [
                 "ev-talent-dev",
-                "ev-coaching"
+                "ev-coaching",
+                "ev-mentorship"
               ]
             },
             "."
