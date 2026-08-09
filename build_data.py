@@ -98,6 +98,10 @@ evidence = {
   "ev-tech-stack": {"title": "Tech Stack Blueprinting", "years": "7+ years experience", "text": "Bayer's global enterprise blueprinting effort was tech stack blueprinting at the largest possible scale: mapping the present state of every tech stack, persona, and operational interaction across multiple countries, then delivering future state recommendations that exposed redundant systems and unserved gaps. At Dryland, the 450 point blueprint drove the design and redesign of our entire tech stack, from the original ClickUp buildout to a Monday.com rebuild and the Zapier automations connecting it all. I still do this for clients today, including the end-to-end service blueprint and strategic recommendations that determined a hospitality franchise's tech stack roadmap for multi-location build outs."},
   "pf-cdp": {"title": "Customer Data Platform Roadmap", "text": "The use cases and roadmap, built from the customer-experience perspective, that anchored a Fortune 500's Customer Data Platform vendor selection.", "link": "https://www.hance.work/Customer-Data-Platform-Roadmap-0d65a3c99943497e9c969160e33742a2?pvs=25"},
   "pf-personas": {"title": "A.I. Persona Prototypes", "text": "Agentic AI personas wired into Microsoft Teams \u2014 built before commercial AI integrations existed and launched across multiple company-wide platforms \u2014 so teams could interview user models they couldn't otherwise reach.", "link": "https://www.hance.work/A-I-Persona-Prototypes-43575337f52c4cecaf4fdd871e5aa41e?pvs=25"},
+  "ev-high-stakes-env": {"title": "High Stakes Environments", "years": "13+ years experience", "text": "As a producer and assistant director in the entertainment industry, plans had to be precise, teams had to be well-qualified, and the roadmap had to be intentional. If we had to push a day, we might be literally wasting a million dollars, and that responsibility fell directly on me. This was normal as a work environment for me for six years."},
+  "ev-constraints": {"title": "Working Within Constraints", "years": "13+ years experience", "text": "As a producer and assistant director, my whole job was making the client and directors' visions possible despite budget, time, and resource constraints \u2014 I developed the concept and vision, roadmapped, and implemented the operational plan across years of productions. This has translated directly to my skillsets in producing quality work creatively since."},
+  "ev-early-risk": {"title": "Early Risk Flagging", "years": "13+ years experience", "text": "Skilled at identifying delivery risk early in unfamiliar domains \u2014 a habit built through six years of film sets where the surprises required quick production-wide changes, seven years in summer camping where one lightning strike could change the plans for 500 kids for a whole day, and running operations across multiple startups."},
+  "ev-evaluating-inherited": {"title": "Evaluating Inherited Work", "years": "10+ years experience", "text": "I am regularly handed someone else's work and asked to move forward from where they left off. This was common in the film industry and most of my efforts in other operational capacities like at Campus Carriers and Greene Family Camp. At Bayer, my first assignment on the operations platform was user acceptance testing with zero context on products built before we arrived. Additionally, my first assignment with the customer platform was to take over ownership of the primary user experience for the end-to-end farmer site rebuild, where I immediately discovered a gap in designing for user trust by the external consultancies. Entering a project without the builders' context is an advantage, because most users of a product, service, or system do not have that context either."},
   "pf-full": {"title": "Full Portfolio", "text": "Twelve public case studies across service blueprints, journey maps, systems maps, AI strategy, and UX — each one walks through the process, the deliverables, and the impact.", "link": "https://www.hance.work/"},
   "pf-local-blueprint": {"title": "Local Enterprise Service Blueprint", "text": "A focused enterprise service blueprint mapping a business's systems and interaction points end to end.", "link": "https://www.hance.work/Local-Enterprise-Level-Service-Blueprint-74f9ecfa9f4a4873be1b909a7f5e37d8?pvs=25"},
   "pf-global-blueprint": {"title": "Global Enterprise Service Blueprint", "text": "Bayer's 20,000+ point global service blueprint mapping tech, personas, and interactions across countries to surface redundancies and gaps.", "link": "https://www.hance.work/Global-Enterprise-Level-Service-Blueprint-cd937db4cb344b318bae4c6d1e7ca9fa?pvs=25"},
@@ -178,6 +182,42 @@ def jd_prose():
         " and is expected to ",
         ph("a-model-ai-fluency", "model strong AI fluency, ethical use, and practical application across administrative and academic contexts",
            ["ev-responsible-ai", "ev-agentic-ops", "ev-rd-lab", "ev-ai-reliability"]),
+        "."
+      ]},
+
+      {"type": "h3", "text": "24/7 business continuity:"},
+
+      {"type": "p", "segments": [
+        "This role requires ",
+        ph("a-after-hours", "occasional availability outside of traditional working hours to address urgent business needs as they arise",
+           ["ev-high-stakes-env", "ev-parallel", "ev-operating-cadences"]),
+        ", including, but not limited to, ",
+        ph("a-incidents", "responding to security incidents, supporting software deployments, resolving software issues or system breaks, and addressing other critical operational requirements",
+           ["ev-high-stakes-decisions", "ev-early-risk", "ev-root-cause"]),
+        ". The ideal candidate must be ",
+        ph("a-minimal-disruption", "proactive and adaptable, ensuring minimal disruption to business operations by promptly addressing any issues, regardless of time or day",
+           ["ev-early-risk", "ev-high-stakes-env", "ev-concurrent-pm"]),
+        ". ",
+        ph("a-urgency", "Flexibility and a strong sense of urgency are essential for success in this position",
+           ["ev-constraints", "ev-high-stakes-decisions"]),
+        "."
+      ]},
+
+      {"type": "h3", "text": "Other duties as required:"},
+
+      {"type": "p", "segments": [
+        "This role requires ",
+        ph("a-outside-primary", "flexibility in performing duties outside of the primary responsibilities to support evolving business needs",
+           ["ev-workstreams", "ev-wide-industry"]),
+        ". The ideal candidate must be ",
+        ph("a-additional-tasks", "adaptable and willing to take on additional tasks or projects as required, ensuring smooth operations across the organization",
+           ["ev-evaluating-inherited", "ev-rapid-domain"]),
+        ". This may include ",
+        ph("a-stepping-in", "stepping in to assist with cross-functional teams, handling unexpected challenges, or contributing to initiatives that support business growth and success",
+           ["ev-xfn", "ev-early-risk", "ev-new-revenue"]),
+        ". ",
+        ph("a-pivot", "A proactive mindset and the ability to pivot quickly are essential for thriving in this dynamic environment",
+           ["ev-rapid-domain", "ev-workstreams", "ev-constraints"]),
         "."
       ]},
 

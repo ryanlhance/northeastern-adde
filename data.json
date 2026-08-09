@@ -206,6 +206,103 @@
           ]
         },
         {
+          "type": "h3",
+          "text": "24/7 business continuity:"
+        },
+        {
+          "type": "p",
+          "segments": [
+            "This role requires ",
+            {
+              "id": "a-after-hours",
+              "text": "occasional availability outside of traditional working hours to address urgent business needs as they arise",
+              "evidence": [
+                "ev-high-stakes-env",
+                "ev-parallel",
+                "ev-operating-cadences"
+              ]
+            },
+            ", including, but not limited to, ",
+            {
+              "id": "a-incidents",
+              "text": "responding to security incidents, supporting software deployments, resolving software issues or system breaks, and addressing other critical operational requirements",
+              "evidence": [
+                "ev-high-stakes-decisions",
+                "ev-early-risk",
+                "ev-root-cause"
+              ]
+            },
+            ". The ideal candidate must be ",
+            {
+              "id": "a-minimal-disruption",
+              "text": "proactive and adaptable, ensuring minimal disruption to business operations by promptly addressing any issues, regardless of time or day",
+              "evidence": [
+                "ev-early-risk",
+                "ev-high-stakes-env",
+                "ev-concurrent-pm"
+              ]
+            },
+            ". ",
+            {
+              "id": "a-urgency",
+              "text": "Flexibility and a strong sense of urgency are essential for success in this position",
+              "evidence": [
+                "ev-constraints",
+                "ev-high-stakes-decisions"
+              ]
+            },
+            "."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Other duties as required:"
+        },
+        {
+          "type": "p",
+          "segments": [
+            "This role requires ",
+            {
+              "id": "a-outside-primary",
+              "text": "flexibility in performing duties outside of the primary responsibilities to support evolving business needs",
+              "evidence": [
+                "ev-workstreams",
+                "ev-wide-industry"
+              ]
+            },
+            ". The ideal candidate must be ",
+            {
+              "id": "a-additional-tasks",
+              "text": "adaptable and willing to take on additional tasks or projects as required, ensuring smooth operations across the organization",
+              "evidence": [
+                "ev-evaluating-inherited",
+                "ev-rapid-domain"
+              ]
+            },
+            ". This may include ",
+            {
+              "id": "a-stepping-in",
+              "text": "stepping in to assist with cross-functional teams, handling unexpected challenges, or contributing to initiatives that support business growth and success",
+              "evidence": [
+                "ev-xfn",
+                "ev-early-risk",
+                "ev-new-revenue"
+              ]
+            },
+            ". ",
+            {
+              "id": "a-pivot",
+              "text": "A proactive mindset and the ability to pivot quickly are essential for thriving in this dynamic environment",
+              "evidence": [
+                "ev-rapid-domain",
+                "ev-workstreams",
+                "ev-constraints"
+              ]
+            },
+            "."
+          ]
+        },
+        {
           "type": "h2",
           "text": "Minimum Qualifications"
         },
@@ -1172,6 +1269,26 @@
       "title": "A.I. Persona Prototypes",
       "text": "Agentic AI personas wired into Microsoft Teams — built before commercial AI integrations existed and launched across multiple company-wide platforms — so teams could interview user models they couldn't otherwise reach.",
       "link": "https://www.hance.work/A-I-Persona-Prototypes-43575337f52c4cecaf4fdd871e5aa41e?pvs=25"
+    },
+    "ev-high-stakes-env": {
+      "title": "High Stakes Environments",
+      "years": "13+ years experience",
+      "text": "As a producer and assistant director in the entertainment industry, plans had to be precise, teams had to be well-qualified, and the roadmap had to be intentional. If we had to push a day, we might be literally wasting a million dollars, and that responsibility fell directly on me. This was normal as a work environment for me for six years."
+    },
+    "ev-constraints": {
+      "title": "Working Within Constraints",
+      "years": "13+ years experience",
+      "text": "As a producer and assistant director, my whole job was making the client and directors' visions possible despite budget, time, and resource constraints — I developed the concept and vision, roadmapped, and implemented the operational plan across years of productions. This has translated directly to my skillsets in producing quality work creatively since."
+    },
+    "ev-early-risk": {
+      "title": "Early Risk Flagging",
+      "years": "13+ years experience",
+      "text": "Skilled at identifying delivery risk early in unfamiliar domains — a habit built through six years of film sets where the surprises required quick production-wide changes, seven years in summer camping where one lightning strike could change the plans for 500 kids for a whole day, and running operations across multiple startups."
+    },
+    "ev-evaluating-inherited": {
+      "title": "Evaluating Inherited Work",
+      "years": "10+ years experience",
+      "text": "I am regularly handed someone else's work and asked to move forward from where they left off. This was common in the film industry and most of my efforts in other operational capacities like at Campus Carriers and Greene Family Camp. At Bayer, my first assignment on the operations platform was user acceptance testing with zero context on products built before we arrived. Additionally, my first assignment with the customer platform was to take over ownership of the primary user experience for the end-to-end farmer site rebuild, where I immediately discovered a gap in designing for user trust by the external consultancies. Entering a project without the builders' context is an advantage, because most users of a product, service, or system do not have that context either."
     },
     "pf-full": {
       "title": "Full Portfolio",
