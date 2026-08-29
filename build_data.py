@@ -68,6 +68,7 @@ evidence = {
   "ev-curriculum": {"title": "Curriculum & Learning Design", "years": "7+ years experience", "text": "Designed learning programs and curricula end to end: a leadership curriculum across seven partner universities, multi-month social emotional learning and leadership programs and retreat curricula for high school and college students, high ticket 1:1 men's work including course material, custom processing tools, and interaction cadences, the cohort and retreat programming I still run for men in their 20s, 30s, and 40s, a redesigned staff training program at a 1,500 person camp that lifted retention 67% year over year, and AI enablement content, guides, and quick reference materials for thousands of Fortune 500 users."},
   "ev-global": {"title": "Global & Cross-Cultural Work", "years": "7+ years experience", "text": "Led a team at Delta spanning eight countries and nine disciplines, a global journey mapping effort across North America, Europe, and Asia-Pacific, and AI enablement at Bayer delivered in 20+ languages from Indonesia to Brazil."},
 
+  "ev-digital-tech-enablement": {"title": "Digital Technology Enablement", "years": "11+ years experience", "text": "Moving teams into new technological eras has been a passion of mine since the beginning of my career. The film and television industry was very antiquated when I arrived, working primarily off of paper, whiteboards, and drawings. I had a vision for a more interconnected and adaptable system, so I built out digital production management environments for teams to communicate better across departments and state lines, using Asana, Google Drive, Dropbox, Miro, Mural, and process mapping software to bring cross-functional production teams into the 21st century. I continue to mirror this work at scale, building Dryland's automated end-to-end project management system in the construction industry where technology and change is rare, developing Bayer's internal AI platform, and the tool agnostic knowledge systems I build for client teams today."},
   "ev-adoption": {"title": "Tool and AI Adoption", "years": "10+ years experience", "text": "Adoption is a design problem. At Bayer, I took a Fortune 500's internal AI platform from 2% to 26% adoption in two months, by treating it as a competence problem rather than a trust problem. Beyond that, I developed an agentic persona service that multiple anti-AI teams started using daily, a project management system that construction field crews actually used on their phones, the migration of Bayer's global blueprint from Miro to TheyDo that matured design thinking across the enterprise through ease of discovery for customer journey maps, and currently lead teams from Notion, Dropbox, and Google Drive into tool agnostic markdown systems that increases their AI usage. This passion started in the film industry where I led the adoption of on-set and pre-production technologies across teams and departments."},
   "ev-ai-training": {"title": "Global AI Training", "years": "3+ years experience", "text": "Authored Bayer's AI Strategy Playbook and led its global dissemination in 20+ languages to thousands of internal users across business, engineering, design, and HR — training entire departments of the business from Indonesia to Brazil in a single quarter.", "link": "https://www.hance.work/Generative-A-I-Playbook-bb68ca8c80d840e5be083136a0b88f92?pvs=25"},
   "ev-ai-agents": {"title": "Building AI Agents", "years": "3+ years experience", "text": "Pioneered an agentic persona service at Bayer in 2023, before commercial agents were available. I built AI models of users our design team couldn't otherwise reach, wired into Microsoft Teams before commercial AI integrations existed for the company's stack. The workflow produced high fidelity user representations rapidly, validated by SMEs above 80% accuracy, and significantly reduced UAT failures across the teams that used them. That was over 3 years ago. Imagine what I can do with your data and the latest AI features.", "link": "https://www.hance.work/A-I-Persona-Prototypes-43575337f52c4cecaf4fdd871e5aa41e?pvs=25"},
@@ -157,7 +158,7 @@ def jd_prose():
            ["ev-xfn", "ev-talent-dev", "ev-hiring"]),
         " responsible for ",
         ph("a-community-adopt", "enabling the university community to effectively adopt and use enterprise platforms, AI-powered tools, and digital workflows",
-           ["ev-adoption", "ev-tool-migration", "ev-ai-training"]),
+           ["ev-adoption", "ev-tool-migration", "ev-ai-training", "ev-digital-tech-enablement"]),
         ". This role serves as a ",
         ph("a-bridge", "bridge between campus needs and IT capabilities",
            ["ev-translator", "ev-design-fluency", "ev-systems-mapping"]),
@@ -235,7 +236,7 @@ def jd_prose():
 
       {"type": "li", "segments": [
         ph("a-seven-years", "7+ years of experience in digital solutions consulting, solutions engineering, training, product/platform ownership, or digital transformation roles",
-           ["ev-13yrs", "ev-adoption", "ev-product-leadership", "pf-full"]),
+           ["ev-13yrs", "ev-adoption", "ev-product-leadership", "pf-full", "ev-digital-tech-enablement"]),
         "."
       ]},
 
@@ -260,7 +261,7 @@ def jd_prose():
 
       {"type": "li", "segments": [
         ph("a-enterprise-platforms", "Strong experience with enterprise platforms and productivity tools (e.g., Microsoft 365, Power Platform, ServiceNow, Qualtrics, collaboration tools)",
-           ["ev-tooling", "ev-pm-tools", "ev-tech-stack", "ev-tool-migration"]),
+           ["ev-tooling", "ev-pm-tools", "ev-tech-stack", "ev-tool-migration", "ev-digital-tech-enablement"]),
         "."
       ]},
 
@@ -400,7 +401,7 @@ def jd_prose():
            ["ev-metrics", "ev-insights", "pf-genai-playbook"]),
         ". ",
         ph("a-monitor-trends", "Monitor trends in digital transformation and AI, evaluate emerging tools",
-           ["ev-rd-lab", "ev-ai-tool-eval", "ev-rapid-domain"]),
+           ["ev-rd-lab", "ev-ai-tool-eval", "ev-rapid-domain", "ev-digital-tech-enablement"]),
         ", and ",
         ph("a-improve-service-models", "continuously improve service models",
            ["ev-process-optimization", "ev-root-cause"]),

@@ -111,7 +111,8 @@
               "evidence": [
                 "ev-adoption",
                 "ev-tool-migration",
-                "ev-ai-training"
+                "ev-ai-training",
+                "ev-digital-tech-enablement"
               ]
             },
             ". This role serves as a ",
@@ -331,7 +332,8 @@
                 "ev-13yrs",
                 "ev-adoption",
                 "ev-product-leadership",
-                "pf-full"
+                "pf-full",
+                "ev-digital-tech-enablement"
               ]
             },
             "."
@@ -401,7 +403,8 @@
                 "ev-tooling",
                 "ev-pm-tools",
                 "ev-tech-stack",
-                "ev-tool-migration"
+                "ev-tool-migration",
+                "ev-digital-tech-enablement"
               ]
             },
             "."
@@ -797,7 +800,8 @@
               "evidence": [
                 "ev-rd-lab",
                 "ev-ai-tool-eval",
-                "ev-rapid-domain"
+                "ev-rapid-domain",
+                "ev-digital-tech-enablement"
               ]
             },
             ", and ",
@@ -1130,6 +1134,11 @@
       "title": "Global & Cross-Cultural Work",
       "years": "7+ years experience",
       "text": "Led a team at Delta spanning eight countries and nine disciplines, a global journey mapping effort across North America, Europe, and Asia-Pacific, and AI enablement at Bayer delivered in 20+ languages from Indonesia to Brazil."
+    },
+    "ev-digital-tech-enablement": {
+      "title": "Digital Technology Enablement",
+      "years": "11+ years experience",
+      "text": "Moving teams into new technological eras has been a passion of mine since the beginning of my career. The film and television industry was very antiquated when I arrived, working primarily off of paper, whiteboards, and drawings. I had a vision for a more interconnected and adaptable system, so I built out digital production management environments for teams to communicate better across departments and state lines, using Asana, Google Drive, Dropbox, Miro, Mural, and process mapping software to bring cross-functional production teams into the 21st century. I continue to mirror this work at scale, building Dryland's automated end-to-end project management system in the construction industry where technology and change is rare, developing Bayer's internal AI platform, and the tool agnostic knowledge systems I build for client teams today."
     },
     "ev-adoption": {
       "title": "Tool and AI Adoption",
