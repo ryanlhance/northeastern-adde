@@ -29,8 +29,8 @@
   /* one highlight system (no match hierarchy) */
   --hl-bg:       var(--nu-red-soft);
   --hl-bg-hover: var(--nu-red-soft);
-  --hl-line:     var(--nu-red);
-  --hl-line-on:  var(--nu-ink);
+  --hl-line:     rgba(200, 16, 46, 0.32);
+  --hl-line-on:  var(--nu-red);
   --hl-active:   var(--nu-red-mid);
 
   --display: "Lato", "Helvetica Neue", Arial, sans-serif;
@@ -241,8 +241,8 @@ a { color: var(--nu-red); }
   text-decoration: underline;
   text-decoration-style: dotted;
   text-decoration-color: var(--hl-line);
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 2px;   /* sits close to the words */
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;   /* sits close to the words */
   transition: background 120ms ease, text-decoration-color 120ms ease;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
